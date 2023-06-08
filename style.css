@@ -1,44 +1,42 @@
-.container {                                                        
-    width: 300px;
-    height: 300px;
-    border: 2px solid #000000;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.container {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #000000;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 100px;
+}
 
+.item {
+  background-color: #f2f2f2;
+  border: 2px solid #ccc;
+  padding: 15px;
 }
-.main{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin: 100px;
+
+.item:hover {
+  background-color: #e0e0e0;
+  cursor: grab;
 }
-  
-  .item {
-    background-color: #f2f2f2;
-    border: 2px solid #ccc;
-    padding: 15px;
-  }
-  
-  .item:hover {
-    background-color: #e0e0e0;
-    cursor: grab;
-  }
-  
-  #container2 {
-    background-color: #e0e0e0;
-  }
-  
-  #resetBtn {
-    margin-top:50px;
-    width:25%;
-    height: 5vh;
-  }
-  #resetbtn:hover{
-    
-    background-color: #e0e0e0;
-    cursor: pointer;
-  }
+
+#container2 {
+  background-color: #e0e0e0;
+}
+
+#resetBtn {
+  margin-top: 50px;
+  width: 25%;
+  height: 5vh;
+}
+#resetbtn:hover {
+  background-color: #e0e0e0;
+  cursor: pointer;
+}
